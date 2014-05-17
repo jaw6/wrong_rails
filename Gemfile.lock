@@ -3,6 +3,7 @@ PATH
   specs:
     wrong_rails (0.0.1)
       rails (~> 4.0)
+      wrong (~> 0.7.1)
 
 GEM
   remote: https://rubygems.org/
@@ -35,6 +36,7 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
+    diff-lcs (1.2.5)
     erubis (2.7.0)
     hike (1.2.3)
     i18n (0.6.9)
@@ -46,6 +48,7 @@ GEM
     minitest (5.3.4)
     multi_json (1.10.0)
     polyglot (0.3.4)
+    predicated (0.2.6)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -65,6 +68,12 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.3.2)
+    ruby2ruby (2.1.0)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.0)
+    ruby_parser (3.6.0)
+      sexp_processor (~> 4.1)
+    sexp_processor (4.4.3)
     sprockets (2.12.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -83,6 +92,12 @@ GEM
       polyglot (>= 0.3.1)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
+    wrong (0.7.1)
+      diff-lcs (~> 1.2.5)
+      predicated (~> 0.2.6)
+      ruby2ruby (>= 2.0.1)
+      ruby_parser (>= 3.0.1)
+      sexp_processor (>= 4.0)
 
 PLATFORMS
   ruby
